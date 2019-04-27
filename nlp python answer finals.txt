@@ -1,0 +1,419 @@
+﻿Python decorator is a specific change that we make in Python syntax to alter functions.
+
+String store characters and have many built-in convenience methods that let you modify their content strings are immutable, meaning they cannot be changed in place.
+
+Variables are assigned values using the = operator, which is not to be confused with the == sign used for testing equality, a variable can hold almost any type of value such as lists, dictionaries, functions.
+
+Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function this process is called pickling While the process of retrieving original Python objects from the stored string representation is called unpickling.
+
+Map function executes the function given as the first argument on all the elements of the iterable given as the second argument If the function given takes in more than 1 arguments then many iterables are given.
+
+TkInter is Python library It is a toolkit for GUI development It provides support for various GUI tools or widgets (such as buttons, labels, text boxes, radio buttons, etc) that are used in GUI applications The common attributes of them include Dimensions, Colors, Fonts, Cursors, etc.
+
+A Module is a Python script that generally contains import statements, functions, classes and variable definitions, and Python runnable code and it “lives” file with a ‘.py’ extension zip files and DLL files can also be modules.Inside the module, you can refer to the module name as a string that is stored in the global variable name.
+
+Lambda is a single expression anonymous function often used as inline function in python.
+
+strip() in-built function of Python is used to remove all the leading and trailing spaces from a string.
+
+In Python every name introduced has a place where it lives and can be hooked for This is known as namespace It is like a box where a variable name is mapped to the object placed Whenever the variable is searched out, this box will be searched, to get corresponding object.
+
+Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
+
+A tuple is another sequence data type that is similar to the list A tuple consists of a number of values separated by commas Unlike lists, however, tuples are enclosed within parentheses.
+
+Dictionaries are kind of hash table type They work like associative arrays or hashes found in Perl and consist of key-value pairs a dictionary key can be almost any Python type, but are usually numbers or strings Values, on the other hand, can be any arbitrary python object.
+
+Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling.
+
+Unpickling process of retrieving original Python objects from the stored string representation is called unpickling.
+
+Iterators are used for iterating a group of elements, containers like list.
+
+Slicing is a mechanism that helps you in selecting a range of items from sequence types such as tuple, string, list, etc.
+
+Docstring is another name for a Python documentation string It is way to document Python modules, classes and functions.
+
+Unittest is the unit testing framework in Python It aids in automation testing, sharing of setups, aggregation of tests into collections, shutdown code tests, etc.
+
+You can delete a file with the help of command (os.remove(filename)) or (os.unlink (filename)).
+
+Split function in Python helps in breaking a string into shorter strings by using the defined separator It provides a list of the words contained in the string.
+
+Features python is an interpreted language, dynamically typed, well suited to object orientated programming, code is quick,etc.
+
+Python memory is managed by Python private heap space All Python objects and data structures are located in a private heap.
+
+Flask is a web micro framework for Python based on “Werkzeug, Jinja2 and good intentions” BSD license Werkzeug and Jinja2 are two of its dependencies This means it will have little to no dependencies on external libraries.
+
+Help function is used to display the documentation string and also facilitates you to see the help related to modules, keywords, attributes, etc.
+
+The dir() function is used to display the defined symbols.
+
+Monkey patch only refers to dynamic modifications of a class or module at run-time. 
+
+We use *args when we aren’t sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function.
+
+**kwargs is used when we don’t know how many keyword arguments will be passed to a function, or it can be used to pass the values of a dictionary as keyword arguments.
+
+Django provides session that lets you store and retrieve data on a per-site-visitor basis Django abstracts the process of sending and receiving cookies, by placing a session ID cookie on the client side, and storing all the related data on the server side.
+
+Operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise x is y, here is results in 1 if id(x) equals id(y).
+
+Break terminates the loop statement and transfers execution to the statement immediately following the loop.
+
+Continue auses the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+
+Sqlite3 is the standard library for python for database.
+
+In python we can use import socket a standard library for socket programming in python for client server interaction.
+
+Yes Python support MongoDB.
+
+import threading can be used for threaded application in python.
+
+Opencv is the computer vision library in python.
+
+Yes python support creating (.exe) file using module cx_freez.
+
+Pycharm,idle,Spyder are various ide for python programming.
+
+Yes python can be used for mobile app development using module kivy.
+
+Shallow copy is used when a new instance type gets created and it keeps the values that are copied in the new instance and Deep copy is used to store the values that are already copied Deep copy doesn’t copy the reference pointers to the objects.
+
+Built-in datatypes in Python is called dictionary It defines one-to-one relationship between keys and values Dictionaries contain pair of keys and their corresponding values. Dictionaries are indexed by keys.
+
+Random module is the standard module that is used to generate the random number.
+
+Flask is a “microframework” primarily build for a small application with simpler requirements In flask, you have to use external libraries Flask is ready to use Pyramid is built for larger applications It provides flexibility and lets the developer use the right tools for their project The developer can choose the database, URL structure, templating style and more Pyramid is heavy configurable Django can also used for larger applications just like Pyramid It includes an ORM.
+
+Matplotlib provides basic 3D plotting in the mplot3d.
+
+Numbers,Strings,List,Tuples,Dictionaries are the types of data type in python.
+
+(list.reverse()) Reverses objects of list in place.
+
+In python generally “with” statement is used to open a file, process the data present in the file, and also to close the file without calling a close() method “with” statement makes the exception handling simpler by providing cleanup activities.
+
+Yes!! Python is Object Oriented Programming language.
+
+Python does not provide interfaces like in Java Abstract Base Class (ABC) and its feature are provided by the Python’s “abc” module. 
+
+Both append() and extend() methods are the methods of list These methods a regex used to add the elements at the end of the list.
+
+We have three logical operators  and , or , not.
+
+Tuple packing is a way to pack a set of values into a tuple.
+
+In python (.py) files are Python source files (.pyc) files are the compiled bvtecode files that is generated by the Python compiler.
+
+In python try, except and finally blocks are used in Python error handling. 
+
+Modules are brought in python via the import statement.
+
+Functions in python are defined using the def statement An example might be def foo(bar):.
+
+Class are created using the class statement An example might be class abc(parameter):.
+
+In python functions return values using the return statement.
+
+The lambda operator is used to create anonymous functions It is mostly used in cases where one wishes to pass functions as parameters or assign them to variable names.
+
+Local namespaces are created within a function when that function is called Global name spaces are created when the program starts.
+
+In python control statements are for and While Loop.
+
+The break statement stops execution of the current loop and transfers control to the next block The continue statement ends the current block’s execution and jumps to the next iteration of the loop.
+
+Pyqt5,tkinter,pyside2 are the gui modules in python.
+
+Numpy,scipy,tensorflow,keras are the scientific libraries in python.
+
+Pygame is the game development module in python.
+
+Pandas is the data filtering module in python used for data preprocessing.
+
+Pygame is a module through which we can make/create games in python.
+
+Pythonpath has a role similar to PATH PYTHONPATH variable tells the Python interpreter where to locate the module files imported into a program PYTHONPATH should include the Python source library directory.
+
+Pythonstartup contains the path of an initialization file containing python source code.
+
+Pythoncaseok is used in windows to instruct python to find the first case-insensitive match in an import statement.
+
+Pythonhome is an alternative module search path It is usually embedded in the PYTHONSTARTUP or PYTHONPATH directories to make switching module libraries easy.
+
+Inheritance is a process of using details from a new class without modifying existing class.
+
+Encapsulation is hiding the private details of a class from other objects.
+
+Polymorphism is a concept of using common operation in different ways for different data input.
+
+File is a named location on disk to store related information, it is used to permanently store data in a non-volatile memory example hard disk.
+
+Directory are a large number of files to handle in your program, you can arrange your code within different directories to make things more manageable.
+
+AssertionError is raised when assert statement fails.
+
+AttributeError is raised when attribute assignment or reference fails.
+
+EOFError is raised when the input() functions hits end-of-file condition.
+
+FloatingPointError is raised when a floating point operation fails.
+
+GeneratorExit is raise when a generator's close() method is called.
+
+ImportError is raised when the imported module is not found.
+
+IndexError is raised when index of a sequence is out of range.
+
+KeyError is raised when a key is not found in a dictionary.
+
+KeyboardInterrupt is raised when the user hits interrupt key (Ctrl+c or delete).
+ 
+MemoryError is raised when an operation runs out of memory.
+ 
+NameError is raised when a variable is not found in local or global scope.
+
+NotImplementedError is raised by abstract methods.
+
+OSError is raised when system operation causes system related error.
+
+OverflowError is raised when result of an arithmetic operation is too large to be represented.
+
+ReferenceError is raised when a weak reference proxy is used to access a garbage collected referent.
+
+RuntimeError is raised when an error does not fall under any other category.
+
+StopIteration is raised by next() function to indicate that there is no further item to be returned by iterator.
+
+SyntaxError is raised by parser when syntax error is encountered.
+
+IndentationError is raised when there is incorrect indentation.
+
+TabError is raised when indentation consists of inconsistent tabs and spaces.
+
+SystemError is raised when interpreter detects internal error.
+
+SystemExit is raised by [sys.exit()] function.
+
+TypeError is raised when a function or operation is applied to an object of incorrect type.
+
+UnboundLocalError is raised when a reference is made to a local variable in a function or method, but no value has been bound to that variable.
+
+UnicodeError is raised when a Unicode-related encoding or decoding error occurs.
+
+UnicodeEncodeError is raised when a Unicode-related error occurs during encoding.
+
+UnicodeDecodeError is raised when a Unicode-related error occurs during decoding.
+
+UnicodeTranslateError is raised when a Unicode-related error occurs during translating.
+
+ValueError is raised when a function gets argument of correct type but improper value.
+
+ZeroDivisionError is raised when second operand of division or modulo operation is zero.
+
+Exceptions which forces your program to output an error when something in it goes wrong.
+
+List Comprehensions is convenient ways to generate or extract information from lists.
+
+Lists is data type that holds an ordered collection of values, which can be of any type and they are ordered mutable data type unlike tuples, lists can be modified in-place.
+
+While loop permits code to execute repeatedly until a certain condition is met.
+
+print() is a function to display the output of a program, using the parenthesized version is arguably more consistent.
+
+range() function returns a list of integers, the sequence of which is defined by the arguments passed to it.
+
+Sets are collections of unique but unordered items, it is possible to convert certain iterables to a set.
+
+Abs return the absolute value of a number.
+
+Argument is an extra information which the computer uses to perform commands.
+
+Argparse is a parser for command-line options, arguments and subcommands.
+
+Assert is used during debugging to check for conditions that ought to apply
+
+Break is used to exit a for loop or a while loop.
+
+Class is a template for creating user-defined objects.
+
+Compiler translates a program written in a high-level language into a low-level language.
+
+Continue used to skip the current block, and return to the "for" or "while" statement
+
+Conditional statement contains an "if" or "if/else".
+
+Debugging is the process of finding and removing programming errors.
+
+def Defines a function or method
+
+distutils package included in the Python Standard Library for installing, building and distributing python code.
+
+Docstring is a string literal that occurs as the first statement in a module,function, class, or method definition.
+
+Easy Install is a python module (easy_install) bundled with setuptools that lets you automatically download, build, install, and manage Python packages.
+
+Evaluation order python evaluates expressions from left to right
+
+Exceptions means of breaking out of the normal flow of control of a code block in order to handle errors or other exceptional conditions
+
+Expression is a python code that produces a value.
+
+filter (function, sequence) returns a sequence consisting of those items from the sequence for which function(item) is true
+
+float is an immutable floating point number.
+
+for iterates over an iterable object, capturing each element to a local variable for use by the attached block
+
+function is a parameterized sequence of statements.
+
+function call is an invocation of the function with arguments.
+
+garbage collection i the process of freeing memory when it is not used anymore.
+
+generators is a function which returns an iterator.
+
+high level language is designed to be easy for humans to read and write.
+
+IDLE is abbreviation for Integrated development environment
+
+immutable values cannot be changed after its created.
+
+import is used to import modules whose functions or variables can be used in the current program.
+
+indentation python uses white-space indentation, rather than curly braces or keywords,to delimit blocks.
+
+int is an immutable integer of unlimited magnitude.
+
+interactive mode is when commands are read from a tty, the interpreter is said to be in interactive mode.
+
+interpret execute a program by translating it one line at a time.
+
+IPython is an Interactive shell for interactive computing.
+
+iterable is an object capable of returning its members one at a time.
+
+Literals are notations for constant values of some built-in types.
+
+map (function, iterable, ...) apply function to every item of iterable and return a list of the results.
+
+method is like a function, but it runs "on" an object. 
+
+module is the basic unit of code reusability in python,a block of code imported by some other code.
+
+object is any data with state (attributes or value) and defined behavior (methods). 
+
+object-oriented allows users to manipulate data structures called objects in order to build and execute programs. 
+
+pass is needed to create an empty code block
+
+PEP 8 is a set of recommendations how to write Python code.
+
+Python Package Index is official repository of third-party software for Python.
+
+Pythonic is an idea or piece of code which closely follows the most common idioms of the python language, rather than implementing code using concepts common to other languages.
+
+set an Unordered set, contains no duplicates
+
+setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages
+
+slice is a sub parts of sequences
+
+strings can include numbers, letters, and various symbols and be enclosed by either double or single quotes, although single quotes are more commonly used.
+
+statement is a statement is part of a suite (a "block" of code).
+
+try allows exceptions raised in its attached code block to be caught and handled by except clauses.
+
+with encloses a code block within a context manager.
+
+yield returns a value from a generator function.
+
+Zen of Python is When you type "import this", Python’s philosophy is printed out.
+
+annotation is a label associated with a variable, a class attribute or a function parameter or return value, used by convention as a type hint.
+
+asynchronous context manager is an object which controls the environment seen in an async with statement by defining __aenter__() and __aexit__() methods introduced by PEP 492.
+
+asynchronous generator is a function which returns an asynchronous generator iterator it looks like a coroutine function defined with async def except that it contains yield expressions for producing a series of values usable in an async for loop.
+
+asynchronous generator iterator is an object created by a asynchronous generator function.
+
+asynchronous iterable is an object, that can be used in an async for statement Must return an asynchronous iterator from its __aiter__() method introduced by PEP 492.
+
+waitable is an object that can be used in an await expression Can be a coroutine or an object with an __await__() method
+
+BDFL Benevolent Dictator For Life, [a.k.a.] Guido van Rossum, Python’s creator.
+
+binary file is a file object able to read and write bytes-like objects Examples of binary files are files opened in binary mode ('rb', 'wb' or 'rb+'), [sys.stdin.buffer], [sys.stdout.buffer], and instances of [io.BytesIO] and [gzip.GzipFile].
+
+docstring is a string literal which appears as the first expression in a class, function or module. 
+
+duck-typing is a programming style which does not look at an object’s type to determine if it has the right interface; instead, the method or attribute is simply called or used By emphasizing interfaces rather than specific types, well-designed code improves its flexibility by allowing polymorphic substitution.
+
+EAFP Easier to ask for forgiveness than permission. This common Python coding style assumes the existence of valid keys or attributes and catches exceptions if the assumption proves false. 
+
+extension module is a module written in C or C++, using Python’s C API to interact with the core and with user code.
+
+GIL global interpreter lock is the mechanism used by the CPython interpreter to assure that only one thread executes Python bytecode at a time.
+
+hash-based pyc is a bytecode cache file that uses the hash rather than the last-modified time of the corresponding source file to determine its validity.
+
+Hashability makes an object usable as a dictionary key and a set member, because these data structures use the hash value internally.
+
+key function or collation function is a callable that returns a value used for sorting or ordering For example, [locale.strxfrm()] is used to produce a sort key that is aware of locale specific sort conventions.
+
+LBYL Look before you leap This coding style explicitly tests for pre-conditions before making calls or lookups This style contrasts with the EAFP approach and is characterized by the presence of many if statements.
+
+loader is an object that loads a module It must define a method named load_module() A loader is typically returned by a finder.
+
+mapping is a container object that supports arbitrary key lookups and implements the methods specified in the Mapping or MutableMapping abstract base classes.
+
+meta path finder is a finder returned by a search of [sys.meta_path] Meta path finders are related to, but different from path entry finders.
+
+metaclass is the class of a class, Class definitions create a class name, a class dictionary, and a list of base classes.
+
+Method Resolution Order is the order in which base classes are searched for a member during lookup.
+
+namespace is the place where a variable is stored, Namespaces are implemented as dictionaries, There are the local, global and built-in namespaces as well as nested namespaces in objects (in methods).
+
+nested scopeis the ability to refer to a variable in an enclosing definition, For instance, a function defined inside another function can refer to variables in the outer function.
+
+new-style class is old name for the flavor of classes now used for all class objects.
+
+path entry is a single location on the import path which the path based finder consults to find modules for importing.
+
+path entry finder a finder returned by a callable on sys.path_hooks which knows how to locate modules given a path entry.
+
+path entry hook is a callable on the [sys.path_hook] list which returns a path entry finder if it knows how to find modules on a specific path entry.
+
+path based finder is one of the default meta path finders which searches an import path for modules.
+
+path-like object is an object representing a file system path.
+
+Python Enhancement Proposal PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment, PEPs should provide a concise technical specification and a rationale for proposed features.
+
+portion is a set of files in a single directory that contribute to a namespace package, as defined in PEP 420.
+
+Provisional API is one which has been deliberately excluded from the standard library’s backwards compatibility guarantees.
+
+single dispatch is a form of generic function dispatch where the implementation is chosen based on the type of a single argument.
+
+slice is an object usually containing a portion of a sequence. 
+
+special method is a method that is called implicitly by Python to execute a certain operation on a type, such as addition. 
+
+struct sequence is a tuple with named elements, Struct sequences expose an interface similar to named tuple in that elements can be accessed either by index or as an attribute. 
+
+type alias is a synonym for a type, created by assigning the type to an identifier, Type aliases are useful for simplifying type hints.
+
+type hint is an annotation that specifies the expected type for a variable, a class attribute, or a function parameter or return value.
+
+virtual environment is a cooperatively isolated runtime environment that allows Python users and applications to install and upgrade Python distribution packages without interfering with the behaviour of other Python applications running on the same system.
+
+virtual machine is a computer defined entirely in software Python’s virtual machine executes the bytecode emitted by the bytecode compiler.
+
+Zen of Python is Listing of Python design principles and philosophies that are helpful in understanding and using the language, The listing can be found by typing “import this” at the interactive prompt.

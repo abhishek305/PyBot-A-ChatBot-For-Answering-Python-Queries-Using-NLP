@@ -1,0 +1,389 @@
+﻿Module is defined as a file containing a set of functions you want to include in your application.
+
+To create a module just save the code you want in a file with the file extension dot py.
+
+abc module in python provides the infrastructure for defining abstract base classes ABCs in Python 
+it contain one or more abstract methods 
+An abstract method is a method that is declared but contains no implementation
+Abstract classes may not be instantiated and require subclasses to provide implementations for the abstract methods. 
+
+aifc module provides support for reading and writing AIFF and AIFF-C files AIFF is Audio Interchange File Format for storing digital audio samples in a file
+AIFF-C is a newer version of the format that includes the ability to compress the audio data.
+
+argparse module makes it easy to write user-friendly command-line interfaces
+The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments.
+
+Django module is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. 
+
+array module defines an object type which can compactly represent an array of basic values- characters, integers, floating point numbers
+Arrays are sequence types and behave very much like lists, except that the type of objects stored in them is constrained.
+
+ast module helps Python applications to process trees of the Python abstract syntax grammar
+The abstract syntax itself might change with each Python release this module helps to find out programmatically what the current grammar looks like. 
+
+asynchat module builds on the asyncore infrastructure, simplifying asynchronous clients and servers 
+and making it easier to handle protocols whose elements are terminated by arbitrary strings, or are of variable length.
+
+asyncio module is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network 
+and web-servers, database connection libraries, distributed task queues, etc.
+
+The atexit module defines functions to register and unregister cleanup functions and Functions thus registered are automatically executed upon normal interpreter termination.
+
+The audioop module contains some useful operations on sound fragments
+It operates on sound fragments consisting of signed integer samples 8, 16, 24 or 32 bits wide, stored in bytes-like objects
+All scalar items are integers, unless specified otherwise.
+
+base64 module provides functions for encoding binary data to printable ASCII characters and decoding such encodings back to binary data
+It provides encoding and decoding functions for the encodings specified in RFC 3548
+which defines the Base16, Base32, and Base64 algorithms, and for the de-facto standard Ascii85 and Base85 encodings.
+
+The bdb module handles basic debugger functions, like setting breakpoints or managing execution via the debugger.
+
+The binascii module contains a number of methods to convert between binary and various ASCII-encoded binary representations.
+
+binhex module encodes and decodes files in binhex4 format, a format allowing representation of Macintosh files in ASCII. Only the data fork is handled.
+
+bisect module provides support for maintaining a list in sorted order without having to sort the list after each insertion
+For long lists of items with expensive comparison operations, this can be an improvement over the more common approach
+The module is called bisect because it uses a basic bisection algorithm to do its work.
+
+builtins module provides direct access to all ‘built-in’ identifiers of Python
+-- for example, builtins.open is the full name for the built-in function open().
+
+bz2 module provides a comprehensive interface for compressing and decompressing data using the bzip2 compression algorithm.
+
+BeautifulSoup(bs4) module is a Python library for pulling data out of HTML and XML files
+-- Beautiful Soup 3 has been replaced by Beautiful Soup 4
+-- Beautiful Soup 3 only works on Python 2.x, but Beautiful Soup 4 also works on Python 3.x
+-- Beautiful Soup 4 is faster, has more features, and works with third-party parsers like lxml and html5lib.
+
+calendar module allows you to output calendars like the Unix cal program,
+-- provides additional useful functions related to the calendar
+-- these calendars have Monday as the first day of the week, 
+-- Sunday as the last (the European convention). Use setfirstweekday() to set the first day of the week to Sunday (6) or to any other weekday
+-- Parameters that specify dates are given as integers. For related functionality.
+ 
+CGI module defines a number of utilities for use by CGI scripts written in Python
+-- A CGI script is invoked by an HTTP server, 
+-- usually to process user input submitted through an HTML <FORM> or <ISINDEX> element.
+
+cgitb module provides a special exception handler for Python scripts. (Its name is a bit misleading. It was originally designed to display extensive traceback information in HTML for CGI scripts.
+
+chunk module provides an interface for reading files that use EA IFF 85 chunks
+--This format is used in at least the Audio Interchange File Format (AIFF/AIFF-C) 
+--the Real Media File Format (RMFF)
+--The WAVE audio file format is closely related and can also be read using this module.
+
+cmath module provides access to mathematical functions for complex numbers
+--The functions in this module accept integers, 
+--floating-point numbers or complex numbers as arguments.
+
+Cmd module provides a simple framework for writing line-oriented command interpreters
+--These are often useful for test harnesses, administrative tools, and prototypes that will later be wrapped in a more sophisticated interface.
+
+code module provides facilities to implement read-eval-print loops in Python. Two classes and convenience functions are included which can be used to build applications which provide an interactive interpreter prompt.
+
+codecs module defines base classes for standard Python codecs (encoders and decoders) and provides access to the internal Python codec registry, which manages the codec and error handling lookup process.
+
+codeop module provides utilities upon which the Python read-eval-print loop can be emulated, as is done in the code module.
+
+collections module implements specialized container datatypes providing alternatives to Python’s general purpose built-in containers, dict, list, set, and tuple.
+
+collections.abc module provides abstract base classes that can be used to test whether a class provides a particular interface; for example, whether it is hashable or whether it is a mapping.
+
+colorsys module defines bidirectional conversions of color values between colors expressed in the RGB (Red Green Blue) color space used in computer monitors and three other coordinate systems.
+
+compileall module provides some utility functions to support installing Python libraries. These functions compile Python source files in a directory tree. 
+
+concurrent.futures module provides a high-level interface for asynchronously executing callables.
+
+configparser module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what’s found in Microsoft Windows INI files.
+
+contextlib module provides utilities for common tasks involving the with statement For more information see also Context Manager Types and With Statement Context Managers.
+
+contextvars module provides APIs to manage, store, and access context-local state The ContextVar class is used to declare and work with Context Variables.
+
+copy module Return a shallow copy.
+
+copyreg module offers a way to define functions used while pickling specific objects The pickle and copy modules use those functions when pickling/copying those objects. 
+
+crypt module implements an interface to the crypt(3) routine, which is a one-way hash function based upon a modified DES algorithm.
+
+CSV module format is the most common import and export format for spreadsheets and databases, CSV format was used for many years prior to attempts to describe the format in a standardized way in RFC 4180. 
+
+ctypes is a foreign function library for Python, It provides C compatible data types, and allows calling functions in DLLs or shared libraries It can be used to wrap these libraries in pure Python.
+
+curses module provides an interface to the curses library, the de-facto standard for portable advanced terminal handling.
+
+dataclass module is a class whose main purpose is to store data without functionality, This kind of class, also known as data structure, is very common.
+
+datetime module supplies classes for manipulating dates and times in both simple and complex ways, While date and time arithmetic is also supported.
+
+dbm module is a generic interface to variants of the DBM database — dbm.gnu or dbm.ndbm If none of these modules is installed, the slow-but-simple implementation in module dbm.dumb will be used.
+
+decimal module provides support for fast correctly-rounded decimal floating point arithmetic, It offers several advantages over the float datatype.
+
+difflib module provides classes and functions for comparing sequences It can be used for example, for comparing files, and can produce difference information in various formats, including HTML and context and unified diffs.
+
+dis module supports the analysis of CPython bytecode by disassembling it, The CPython bytecode which this module takes as an input is defined in the file Include/opcode.h and used by the compiler and the interpreter.
+
+distutils module package provides support for building and installing additional modules into a Python installation. The new modules may be either 100%-pure Python, or may be extension modules written in C, or may be collections of Python packages which include modules coded in both Python and C.
+
+doctest module searches for pieces of text that look like interactive Python sessions, and then executes those sessions to verify that they work exactly.
+
+dummy_threading module provides a duplicate interface to the threading module. It was meant to be imported when the _thread module was not provided on a platform.
+
+email module package is a library for managing email messages. It is specifically not designed to do any sending of email messages to SMTP (RFC 2821), NNTP, or other servers.
+
+ensurepip module package provides support for bootstrapping the pip installer into an existing Python installation or virtual environment.
+
+ensurepip module package provides support for bootstrapping the pip installer into an existing Python installation or virtual environment.
+
+enumeration module or enum module is a set of symbolic names (members) bound to unique, constant values Within an enumeration, the members can be compared by identity, and the enumeration itself can be iterated over.
+
+errno module makes available standard errno system symbols The value of each symbol is the corresponding integer value The names and descriptions are borrowed from linux/include/errno.h, which should be pretty all-inclusive.
+
+faulthandler module contains functions to dump Python tracebacks explicitly, on a fault, after a timeout, or on a user signal Call faulthandler.enable() to install fault handlers for the SIGSEGV, SIGFPE, SIGABRT, SIGBUS, and SIGILL signals.
+
+fcntl module performs file control and I/O control on file descriptors It is an interface to the fcntl() and ioctl() Unix routines.
+
+filecmp module defines functions to compare files and directories, with various optional time/correctness trade-offs.
+
+fileinput module implements a helper class and functions to quickly write a loop over standard input or a list of files If you just want to read or write one file see open().
+
+fnmatch module provides support for Unix shell-style wildcards, which are not the same as regular expressions.
+
+Flask module is considered more Pythonic than the Django web framework because in common situations the equivalent Flask web application is more explicit:
+--Flask is also easy to get started with as a beginner because there is little boilerplate code for getting a simple app up and running. 
+
+formatter module supports two interface definitions, each with multiple implementations: The formatter interface, and the writer interface which is required by the formatter interface.
+
+fractions module provides support for rational number arithmetic
+--A Fraction instance can be constructed from a pair of integers, from another rational number, or from a string.
+
+ftplib module defines the class FTP and a few related items The FTP class implements the client side of the FTP protocol.
+
+functools module is for higher-order functions: functions that act on or return other functions In general, any callable object can be treated as a function for the purposes of this module.
+
+gc module provides an interface to the optional garbage collector It provides the ability to disable the collector, tune the collection frequency, and set debugging options.
+
+getopt module is a parser for command line options whose API is designed to be familiar to users of the C getopt() function.
+
+The getpass module provides two functions:
+--etpass.getpass Prompt the user for a password without echoing
+--exception getpass.GetPassWarning A UserWarning subclass issued when password input may be echoed.
+
+gettext module provides internationalization (I18N) and localization (L10N) services for your Python modules and applications.
+
+glob module finds all the pathnames matching a specified pattern according to the rules used by the Unix shell, although results are returned in arbitrary order.
+
+grp module provides access to the Unix group database. It is available on all Unix versions.
+
+gzip module provides a simple interface to compress and decompress files just like the GNU programs gzip and gunzip would.
+
+zlib module is the applications that require data compression, the functions in this module allow compression and decompression, using the zlib library.
+
+zipimport module adds the ability to import Python modules (*.py, *.pyc) and packages from ZIP-format archives.
+
+zipfile module is the ZIP file format is a common archive and compression standard This module provides tools to create, read, write, append, and list a ZIP file. 
+
+zipapp module provides tools to manage the creation of zip files containing Python code, which can be executed directly by the Python interpreter and The module provides both a Command-Line Interface and a Python API.
+
+XML module is important to note that modules in the xml package require that there be at least one SAX-compliant XML parser available The Expat parser is included with Python, so the xml.parsers.expat module will always be available.
+
+xdrlib module supports the External Data Representation Standard as described in RFC 1014, written by Sun Microsystems, Inc. June 1987. It supports most of the data types described in the RFC.
+
+wsgiref module is Web Server Gateway Interface (WSGI) is a standard interface between web server software and web applications written in Python. Having a standard interface makes it easy to use an application that supports WSGI with a number of different web servers.
+
+winsound module provides access to the basic sound-playing machinery provided by Windows platforms. It includes functions and several constants.
+
+winreg module is Windows registry API to Python. Instead of using an integer as the registry handle, a handle object is used to ensure that the handles are closed correctly, even if the programmer neglects to explicitly close them.
+
+webbrowser module provides a high-level interface to allow displaying Web-based documents to users. Under most circumstances, simply calling the open() function from this module will do the right thing.
+
+weakref module allows the Python programmer to create weak references to objects.
+
+wave module provides a convenient interface to the WAV sound format. It does not support compression/decompression, but it does support mono/stereo.
+
+Warning messages are typically issued in situations where it is useful to alert the user of some condition in a program, where that condition (normally) doesn’t warrant raising an exception and terminating the program
+--For example, one might want to issue a warning when a program uses an obsolete module.
+
+venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories.
+
+uuid module provides immutable UUID objects (the UUID class) and the functions uuid1(), uuid3(), uuid4(), uuid5() for generating version 1, 3, 4, and 5 UUIDs as specified in RFC 4122.
+
+uu module encodes and decodes files in uuencode format, allowing arbitrary binary data to be transferred over ASCII-only connections.
+
+urllib module is a package that collects several modules for working with URLs:
+--urllib-request for opening and reading URLs
+--urllib-error containing the exceptions raised by urllib.request
+--urllib-parse for parsing URLs
+--urllib-robotparser for parsing robots.txt files.
+
+unittest unit module is testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. 
+
+unicodedata module provides access to the Unicode Character Database (UCD) which defines character properties for all Unicode characters.
+
+typing module has been included in the standard library on a provisional basis: 
+--New features might be added and API may change even between minor releases if deemed necessary by the core developers.
+
+types module defines utility functions to assist in dynamic creation of new types.
+
+Turtle module is a graphic module which is a popular for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzig and Seymour Papert in 1966.
+
+turtledemo module package includes a set of demo scripts of turtle module.
+
+tty module defines functions for putting the tty into cbreak and raw modes.
+
+tracemalloc module is a debug tool to trace memory blocks allocated by Python. It provides the following information:
+
+traceback module provides a standard interface to extract, format and print stack traces of Python programs It exactly mimics the behavior of the Python interpreter when it prints a stack trace.
+
+trace module allows you to trace program execution, generate annotated statement coverage listings, print caller/callee relationships and list functions executed during a program run.
+
+tokenize module provides a lexical scanner for Python source code, implemented in Python:
+--The scanner in this module returns comments as tokens as well, making it useful for implementing “pretty-printers,” including colorizers for on-screen displays.
+
+token module provides constants which represent the numeric values of leaf nodes of the parse tree (terminal tokens). Refer to the file Grammar/Grammar in the Python distribution for the definitions of the names in the context of the language grammar.
+
+tkinter package (“Tk interface”) is the standard Python interface to the Tk GUI toolkit:
+-- Both Tk and tkinter are available on most Unix platforms, as well as on Windows systems
+-- Tk itself is not part of Python; it is maintained at ActiveState.
+
+timeit module provides a simple way to time small bits of Python code:
+--It has both a Command-Line Interface as well as a callable one
+--It avoids a number of common traps for measuring execution times.
+
+time module provides various time-related functions.
+
+threading module constructs higher-level threading interfaces on top of the lower level _thread module.
+
+textwrap module provides some convenience functions, as well as TextWrapper, the class that does all the work. If you’re just wrapping or filling one or two text strings, the convenience functions should be good enough; otherwise, you should use an instance of TextWrapper for efficiency.
+
+test package contains all regression tests for Python as well as the modules test support and test-regrtest:
+--test-support is used to enhance your tests while test.regrtest drives the testing suite.
+
+termios module provides an interface to the POSIX calls for tty I/O control:
+--For a complete description of these calls, see termios(3) Unix manual page
+--It is only available for those Unix versions that support POSIX termios style tty I/O control configured during installation.
+
+tempfile module creates temporary files and directories and It works on all supported platforms. TemporaryFile, NamedTemporaryFile, TemporaryDirectory, and SpooledTemporaryFile are high-level interfaces which provide automatic cleanup and can be used as context managers.
+--mkstemp() and mkdtemp() are lower-level functions which require manual cleanup.
+
+tarfile module makes it possible to read and write tar archives, including those using gzip, bz2 and lzma compression and Use the zipfile module to read or write .zip files, or the higher-level functions in shutil.
+
+tabnanny module For the time being this module is intended to be called as a script However it is possible to import it into an IDE and use the function check() described below.
+
+syslog module provides an interface to the Unix syslog library routines. Refer to the Unix manual pages for a detailed description of the syslog facility.
+
+sysconfig module provides access to Python’s configuration information like the list of installation paths and the configuration variables relevant for the current platform.
+
+sys module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available.
+
+symtable module is Symbol tables are generated by the compiler from AST just before bytecode is generated. The symbol table is responsible for calculating the scope of every identifier in the code.
+
+symbol module provides constants which represent the numeric values of internal nodes of the parse tree.
+
+sunau module provides a convenient interface to the Sun AU sound format.
+
+subprocess module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.
+
+struct module performs conversions between Python values and C structs represented as Python bytes objects:
+--This can be used in handling binary data stored in files or from network connections, among other sources
+--It uses Format Strings as compact descriptions of the layout of the C structs and the intended conversion to/from Python values.
+
+stringprep module only exposes the tables from RFC 3454:
+--As these tables would be very large to represent them as dictionaries or lists, the module uses the Unicode character database internally
+--The module source code itself was generated using the mkstringprep.py utility.
+
+String module contains some constants, utility function, and classes for string manipulation.
+
+statistics module provides functions for calculating mathematical statistics of numeric (Real-valued) data.
+
+stat module defines constants and functions for interpreting the results of os.stat(), os.fstat() and os.lstat() (if they exist)
+--For complete details about the stat(), fstat() and lstat() calls, consult the documentation for your system.
+
+ssl module provides access to Transport Layer Security (often known as “Secure Sockets Layer”) encryption and peer authentication facilities for network sockets, both client-side and server-side
+--This module uses the OpenSSL library. 
+--It is available on all modern Unix systems, Windows, Mac OS X, and probably additional platforms, as long as OpenSSL is installed on that platform.
+
+sqllite module SQLite is a C library that provides a lightweight disk-based database that doesn’t require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language
+--Some applications can use SQLite for internal data storage.
+
+spwd module provides access to the Unix shadow password database and It is available on various Unix versions.
+
+socketserver module simplifies the task of writing network servers.
+
+socket module provides access to the BSD socket interface:
+--It is available on all modern Unix systems, Windows, MacOS, and probably additional platforms.
+
+sndhdr module provides utility functions which attempt to determine the type of sound data which is in a file.
+
+smtplib module defines an SMTP client session object that can be used to send mail to any Internet machine with an SMTP or ESMTP listener daemon:
+--For details of SMTP and ESMTP operation, consult RFC 821 (Simple Mail Transfer Protocol) and RFC 1869 (SMTP Service Extensions).
+
+smtpd module offers several classes to implement SMTP (email) servers.
+
+site module is automatically imported during initialization and The automatic import can be suppressed using the interpreter’s -S option.
+
+signal module provides mechanisms to use signal handlers in Python.
+
+shutil module offers a number of high-level operations on files and collections of files In particular, functions are provided which support file copying and removal.
+
+shlex class makes it easy to write lexical analyzers for simple syntaxes resembling that of the Unix shell.
+
+selectors module allows high-level and efficient I/O multiplexing, built upon the select module primitives. Users are encouraged to use this module instead, unless they want precise control over the OS-level primitives used.
+
+select module provides access to the select() and poll() functions available in most operating systems, devpoll() available on Solaris and derivatives, epoll() available on Linux 2.5+ and kqueue() available on most BSD.
+
+secrets module is used for generating cryptographically strong random numbers suitable for managing data such as passwords, account authentication, security tokens, and related secrets.
+
+sched module defines a class which implements a general purpose event scheduler
+
+runpy module is used to locate and run Python modules without importing them first:
+--Its main use is to implement the -m command line switch that allows scripts to be located using the Python module namespace rather than the filesystem.
+
+rlcompleter module defines a completion function suitable for the readline module by completing valid Python identifiers and keywords.
+
+resource module provides basic mechanisms for measuring and controlling system resources utilized by a program.
+
+reprlib module provides a means for producing object representations with limits on the size of the resulting strings:
+--This is used in the Python debugger and may be useful in other contexts as well.
+
+readline module defines a number of functions to facilitate completion and reading/writing of history files from the Python interpreter.
+
+re module provides regular expression matching operations similar to those found in Perl.
+
+random module implements pseudo-random number generators for various distributions.
+
+queue module implements multi-producer, multi-consumer queues:
+--It is especially useful in threaded programming when information must be exchanged safely between multiple threads.
+
+pwd module provides access to the Unix user account and password database and It is available on all Unix versions.
+
+pickletools module contains various constants relating to the intimate details of the pickle module, some lengthy comments about the implementation, and a few useful functions for analyzing pickled data.
+
+pickle module implements binary protocols for serializing and de-serializing a Python object structure:
+--“Pickling” is the process whereby a Python object hierarchy is converted into a byte stream, 
+--and “unpickling” is the inverse operation, whereby a byte stream (from a binary file or bytes-like object) is converted back into an object hierarchy.
+
+parser module provides an interface to Python’s internal parser and byte-code compiler.
+
+pathlib module offers classes representing filesystem paths with semantics appropriate for different operating systems:
+--Path classes are divided between pure paths, which provide purely computational operations without I/O, and concrete paths, 
+--which inherit from pure paths but also provide I/O operations.
+
+os module provides a portable way of using operating system dependent functionality.
+
+optparse module is deprecated and will not be developed further; development will continue with the argparse module.
+
+operator module exports a set of efficient functions corresponding to the intrinsic operators of Python.
+
+mailbox module defines two classes, Mailbox and Message, for accessing and manipulating on-disk mailboxes and the messages they contain:
+--Mailbox offers a dictionary-like mapping from keys to messages.
+
+Json module is a built-in package in python, which can be use to work with JSON data.
+
+imaplib module defines three classes, IMAP4, IMAP4_SSL and IMAP4_stream, which encapsulate a connection to an IMAP4 server and implement a large subset of the IMAP4rev1 client protocol as defined in RFC 2060.
+
+itertools module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML. Each has been recast in a form suitable for Python.
